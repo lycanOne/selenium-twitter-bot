@@ -1,0 +1,26 @@
+// Dependencies //
+
+- Selenium
+- Time
+- Random
+- webdriver-manager
+
+// Set Up //
+
+Create a config file with necessary details such as;
+
+#  Login details
+
+username = 'account_username'
+password = 'account_password'
+
+#  Path to Chrome
+
+path_to_chrome = "path/to/chrome/" 
+profile_directory = "profile-directory={chrome_profile_name}"
+
+** Path to chrome is easier if you specify which profile if multiple as you may require 2FA with new browser - alternatively, disable 2FA **
+
+Populate "tweets.py/tweets_list" with tweets array of choice.
+
+Run the program!
